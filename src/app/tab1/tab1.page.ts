@@ -6,7 +6,32 @@ import { Component } from '@angular/core';
   styleUrls: ['tab1.page.scss']
 })
 export class Tab1Page {
+   
+   public primeiroValor:number;
+   public segundoValor:number;
+
+   public resultado:number;
 
   constructor() {}
+   public somar(){
+     this.resultado = this.primeiroValor + this.segundoValor;
+   }
 
+   public subtrair(){
+    this.resultado = this.primeiroValor - this.segundoValor;
+  }
+
+  public dividir(){
+    this.resultado = this.primeiroValor / this.segundoValor;
+  }
+
+  public multiplicar(){
+    this.resultado = this.primeiroValor * this.segundoValor;
+  }
+
+  public limpar(){
+    this.resultado = null;
+    this.primeiroValor = null;
+    this.segundoValor = null;
+  }
 }
