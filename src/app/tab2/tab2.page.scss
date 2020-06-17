@@ -1,0 +1,25 @@
+ion-content{
+   --background: black;
+}
+
+ion-button{
+ font-family: 'Courier New', Courier, monospace;
+ font-weight: bolder;
+ height:95%;
+}
+
+ion-col{
+    // Calculo da área visivel ao usuário View Height //
+    height: calc(55vh / 5);
+}
+
+
+ion-label{
+  --ion-font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+.resultado{
+   font-size:25px;
+   
+}
