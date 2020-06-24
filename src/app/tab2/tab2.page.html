@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="tertiary">
     <ion-title>
-      Calculadora Normal
+       Normal
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -82,14 +82,14 @@
       <ion-row>
         <ion-col>
           <ion-button expand="block" color="primary">
-            <ion-icon name="information-circle"></ion-icon>
+           ?
           </ion-button>
         </ion-col>
         <ion-col>
           <ion-button (click)="adicionarNumero('0')" expand="block" color="secondary">0</ion-button>
         </ion-col>
-        <ion-col  size="3">
-          <ion-button expand="block" color="primary">=</ion-button>
+        <ion-col  size="6">
+          <ion-button (click)="calcularResultado()" expand="block" color="primary">=</ion-button>
         </ion-col>
       </ion-row>
     </ion-grid>
